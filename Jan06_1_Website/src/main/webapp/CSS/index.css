@@ -1,0 +1,126 @@
+@charset "EUC-KR";
+@font-face {
+	/*
+		웹폰트 등록 : CSS에 추가한 상태! (그래서 url에 이름.ttf만 넣음!)
+					(IE에서는 안됨,,)
+					폰트파일 그 글자들 모양이 다 등록 -> 용량이 커짐 -> 느려짐
+	 */
+	font-family: "SBB";
+	src: url("SBB.ttf")
+}
+
+#siteTitle {
+	border-spacing: 0px; /* td간의 간격 */
+	font-family: "SBB";
+	/* position: fixed; */
+	top: 0px;	
+	left: 0px;	/* 좌표 조절 */	
+	width: 100%;
+	
+}
+
+#siteMenu {
+	background-color: #353535;
+	font-family: "SBB";
+	font-size: 30pt;
+	width: 100%;
+}
+
+siteMenu a {
+	color: black;
+	font-family: "SBB";
+}
+
+#siteTitleArea {
+	border-spacing: 0px; /* td간의 간격 */
+	font-family: "SBB";
+	/* position: fixed; */
+	top: 0px;	
+	left: 0px;	/* 좌표 조절 */	
+	width: 100%;
+	
+}
+
+#siteTitleArea table {
+	width: 100%;
+	font-family: "SBB";
+	background-color: #FFBB00;
+}
+
+#siteMenuArea td {
+	width: 25%;
+	height: 30px;
+	text-align: center;
+	font-family: "SBB";
+}
+
+#siteMenuArea a{
+	text-decoration: none;
+	color: black;
+	font-family: "SBB";
+	font-weight: 500;
+	
+	/* 애니메이션 효과 */
+			/* 속성명 시간 속도조절(ease-in / ease-out) */
+	/* transition: all 0.5s ease-in; */
+}
+
+/*
+#siteMenuArea a:hover {
+	font-size: 40pt;					커서를 올렸을때 나올 글씨체
+	text-shadow: yellow 0px 0px 10px;	글씨주변색
+	text-decoration: underline;
+}	
+*/
+
+#siteMenuArea a:active {
+	color:blue;
+}
+
+#siteTitle {
+	background-color: #EAEAEA;
+	font-size: 30pt;
+	color: black;
+	font-family: "SBB";
+	text-decoration: underline;
+	text-shadow: #EAEAEA 3px 5px 5px;
+	width: 1000px;	/* 여백 */
+}
+
+#siteContentArea {
+	width: 1000px;
+	font-family: "SBB";
+	/* height: 800px; */
+	margin-left: auto; 	/*바깥쪽 여백*/
+	margin-right: auto; /*바깥쪽 여백*/
+	/* 위 두개 같이 써주면 가운데 정렬 해줌! */
+	
+	margin-top: 120px; /*위쪽 여백주기*/
+}
+
+
+ #maruVideo{
+	/*객체 자체에 그림자 */
+	box-shadow: black 5px 5px 10px;
+	
+	/*사이즈 조절하면 그림이 깨지니까 안하는게 베스트!*/
+	/*어쩔 수 없다면, 큰그림 -> 줄이기(ok!) / 작은그림 -> 늘리기 (깨짐,,) */
+	
+	max-width: 30%;
+}
+
+
+/* 스크롤바 지우기 */
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	margin: 0px;
+	padding: 0px; /* html기본여백 없애기 */
+}
+
+
+
+
+

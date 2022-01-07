@@ -1,0 +1,20 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "SBB";
+	src: url("SBB.ttf")
+}
+
+#siteTitle {
+	border-spacing: 0px; /* td간의 간격 */
+	font-family: "SBB";
+	/* position: fixed; */
+	top: 0px;	
+	left: 0px;	/* 좌표 조절 */	
+	width: 100%;
+}
+
+#siteContentArea {
+	background-color: "gray";
+	
+	
+}

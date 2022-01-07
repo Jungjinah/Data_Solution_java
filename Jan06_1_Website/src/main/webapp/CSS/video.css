@@ -1,0 +1,15 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "MaruBuri";
+	src: url("MaruBuri.ttf")
+}
+
+#siteTitle {
+	border-spacing: 0px; /* td간의 간격 */
+	font-family: "MaruBuri";
+	/* position: fixed; */
+	top: 0px;	
+	left: 0px;	/* 좌표 조절 */	
+	width: 100%;
+	
+}
