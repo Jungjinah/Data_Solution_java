@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "BMJUA";
+	src: url("BMJUA_ttf.ttf")
+}
+
+#joinTbl {
+	font-family: "BMJUA";
+	background-color:#FFD9FA;
+}
+
+
+
+#joinTbl tr {
+	font-family: "BMJUA";
+	
+}
+<!-- -->
+#one {
+	
+}
+
+#two {
+	
+}
+
+
+#three {
+	
+}
+
+-->

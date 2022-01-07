@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 1) 파일이 업로드가 될 폴더
+		 2) POST방식으로 (주소에 데이터를 담는 GET방식 요청이 파일 소화하지 못함
+		 3) 기존 시스템이 글자는 인코딩, 디코딩, 전송 가능
+		 				파일은 인코딩을 할 줄 모름! (그래서 할 방법 고고씽)
+		 -> cos.jar의 방식으로 인코딩해서 전송, 디코딩
+		 cos.jar -> WEB-INF - lib 에 붙여넣기
+	 -->
+		
+	<form action="Output2" method="post" enctype="multipart/form-data">	<!-- form에 있는 요소가 파일이나 이미지를 서버로 전송할 때 사용! -->
+		제목 <input name="Tilte"><p>										<!-- enctype="multipart/form-data" -->
+		사진 <input type="file" name="photo"><p>
+		기타 <input type="file" name="etc"><p>
+		<hr>
+		<button>확인</button>
+ 	</form>
+</body>
+</html>
