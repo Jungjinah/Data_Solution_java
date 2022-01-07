@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		form속에 있는
+			원래 : <input type="submit"> 누르면
+			바뀜 : 그냥 버튼 모양 아무거나 누르면
+				 <input type="reset">만 빼고
+			action속성으로 쓴 쪽으로 요청!
+	 -->
+
+	<!-- <form action="OUTPUT" method="get" -->
+	<form action="Output" method="get">			<!-- form안에만 있으면 input과 button은 같은 기능! -->
+		입력 : <input name="a">
+		<hr>
+		<input type="submit" value="이게 기본"> <br><br>
+		<button> Output으로 가기</button><br>
+		<input type="image" src="gaori.png" weight="150px" height="150px">
+		<input type="reset"> <br><br>
+	</form>
+</body>
+</html>
